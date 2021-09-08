@@ -41,3 +41,4 @@ pystache==0.5.4
 parsedatetime==2.1
 cryptography==1.4
 Flask-Limiter==0.9.3
+wtforms>=3.0.0a1 # not directly required, pinned by Snyk to avoid a vulnerability
