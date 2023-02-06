@@ -1,11 +1,11 @@
 Flask==1.1.1
-Jinja2==2.10.3
+Jinja2==2.11.3
 itsdangerous==1.1.0
 click==6.7
 MarkupSafe==1.1.1
 pyOpenSSL==19.0.0
 httplib2==0.14.0
-wtforms==2.2.1
+wtforms==2.3.0
 Flask-RESTful==0.3.7
 Flask-Login==0.4.1
 Flask-SQLAlchemy==2.4.1
@@ -20,7 +20,7 @@ blinker==1.4
 psycopg2==2.8.3
 python-dateutil==2.8.0
 pytz>=2019.3
-PyYAML==5.1.2
+PyYAML==5.4
 redis==3.5.0
 requests==2.21.0
 SQLAlchemy==1.3.10
@@ -46,10 +46,10 @@ semver==2.8.1
 xlsxwriter==1.2.2
 pystache==0.5.4
 parsedatetime==2.4
-PyJWT==1.7.1
-cryptography==2.8
+PyJWT==2.4.0
+cryptography==3.2
 simplejson==3.16.0
-ua-parser==0.8.0
+ua-parser==0.15.0
 user-agents==2.0
 maxminddb-geolite2==2018.703
 pypd==1.1.0
@@ -65,5 +65,7 @@ werkzeug==0.16.1
 # Uncomment the requirement for ldap3 if using ldap.
 # It is not included by default because of the GPL license conflict.
 # ldap3==2.2.4
-Authlib==0.15.5
+Authlib==1.1.0
 advocate==1.0.0
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
